@@ -64,7 +64,22 @@ fountains =[
 {"name": "Fountain 59", "latitude": 45.757830, "longitude": 21.250429},
 {"name": "Fountain 60", "latitude": 45.763058, "longitude": 21.189344},
 {"name": "Fountain 61", "latitude": 45.730080, "longitude": 21.264751},
-{"name": "Fountain 62", "latitude": 45.752433, "longitude": 21.295777}
+{"name": "Fountain 62", "latitude": 45.752433, "longitude": 21.295777},
+{"name": "Fountain 63", "latitude": 45.737553, "longitude": 21.216398},
+{"name": "Fountain 64", "latitude": 45.774391, "longitude": 21.245503},
+{"name": "Fountain 65", "latitude": 45.76375, "longitude": 21.281108},
+{"name": "Fountain 66", "latitude": 45.721039, "longitude": 21.158313},
+{"name": "Fountain 67", "latitude": 45.761805, "longitude": 21.213754},
+{"name": "Fountain 68", "latitude": 45.738818, "longitude": 21.196606},
+{"name": "Fountain 69", "latitude": 45.729127, "longitude": 21.227382},
+{"name": "Fountain 70", "latitude": 45.725420, "longitude": 21.209162},
+{"name": "Fountain 71", "latitude": 45.767732, "longitude": 21.254342},
+{"name": "Fountain 72", "latitude": 45.748877, "longitude": 21.199738},
+{"name": "Fountain 73", "latitude": 45.764148, "longitude": 21.247551},
+{"name": "Fountain 74", "latitude": 45.775170, "longitude": 21.230886},
+{"name": "Fountain 75", "latitude": 45.726118, "longitude": 21.267786},
+{"name": "Fountain 76", "latitude": 45.735980, "longitude": 21.197680},
+{"name": "Fountain 77", "latitude": 45.725916, "longitude": 21.178399}
 ]
 
 
