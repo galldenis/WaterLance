@@ -85,7 +85,7 @@ def closest_fountain():
             closest_fountain = fountain
             closest_distance = distance
 
-    return render_template('test.html', lat_p=lat, lng_p=lng)
+    return render_template('test.html', lat_p=lat, lng_p=lng, lat_f=closest_fountain['latitude'], lng_f=closest_fountain['longitude'])
 
 
 
