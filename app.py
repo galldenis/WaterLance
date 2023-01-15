@@ -72,8 +72,8 @@ fountains =[
 def closest_fountain():
     if not request.args.get('longitude') or not request.args.get('latitude'):
         return render_template('page.html')
-    lat = request.args.get('longitude')
-    lng = request.args.get('latitude')
+    lat = request.args.get('latitude')
+    lng = request.args.get('longitude')
     user_location = (lat, lng)
 
     closest_fountain = None
