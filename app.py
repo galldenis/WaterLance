@@ -102,32 +102,3 @@ def closest_fountain():
 
     return render_template('test.html', lat_p=lat, lng_p=lng, lat_f=closest_fountain['latitude'], lng_f=closest_fountain['longitude'])
 
-
-
-
-
-# de pe chat openai--------------------------------------------------------------------------------------
-#     from geopy.distance import geodesic
-# from geopy.geocoders import Nominatim
-
-# geolocator = Nominatim(user_agent="myGeocoder")
-
-# fountains = [{"name":"Fountain 1", "latitude": 45.7588, "longitude": 21.2275},
-#              {"name":"Fountain 2", "latitude": 45.7492, "longitude": 21.2394},
-#              #93 more fountains with name and coordinates
-#              {"name":"Fountain 93", "latitude": 45.7492, "longitude": 21.2394}]
-
-# def find_nearest_fountain(user_location):
-#     nearest_fountain = None
-#     shortest_distance = None
-#     for fountain in fountains:
-#         d = geodesic((lat, lng), (fountain["latitude"], fountain["longitude"]))
-#         if not nearest_fountain or d.km < shortest_distance:
-#             shortest_distance = d.km
-#             nearest_fountain = fountain
-#     return nearest_fountain
-
-# location = geolocator.geocode("Timisoara, Romania")
-# nearest_fountain = find_nearest_fountain(location)
-# print("The nearest fountain is {} located at {}, {} with a distance of {} km".format(
-#     nearest_fountain["name"], nearest_fountain["latitude"], nearest_fountain["longitude"], shortest_distance))
